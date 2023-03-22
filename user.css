@@ -1,0 +1,78 @@
+*
+{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'poppins',sans-serif;
+
+
+}
+body
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #eff0f4;
+
+
+
+}
+.container{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .drop{
+  position: relative;
+  width: 600px;
+  height: 600px;
+  box-shadow: inset 20px 20px 20px rgba(0, 0, 0, 0.5),
+  25px 25px 20px rgba(0, 0, 0, 0.5),
+  25px 30px 30px rgba(0, 0, 0, 0.5),
+  inset -20px -20px 25px rgba(255, 255, 255, 0.5);
+  transition: 0.5s;
+  display: flex;
+  align-items:center;
+  justify-content: center;
+
+
+}
+.container .drop  h2{
+  position: relative;
+  color: #333;
+  font-size: 1.5em;
+  font-style: italic;
+}
+.inputbox1 a{
+  border: 1px solid #007bff;
+  background: #007bff;
+  padding: 20px;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 6px;
+
+
+
+}
+
+.inputbox1 a:hover{
+  background: #fff;
+  color:#007bff;
+}
+
+.container .drop .content form .inputbox:last-child
+{
+  background:#62cdff;
+  width: 120px;
+  box-shadow: inset 2px 5px 10px rgba(0, 0, 0, 0.1),
+  15px 15px 10px rgba(0, 0, 0, 0.05),
+  15px 10px 15px rgba(0, 0,,0 0, 0.25);
+  transition: 0.5s;
+
+}
+.container .drop .content form
+.inputbox:last-child:hover{
+  width: 150px;
+}
